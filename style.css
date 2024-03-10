@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10,200&family=Kalnia:wdth,wght@100..125,100..700&display=swap');
+
+body {
+    background-color: #1d1d20;
+    color: #FFFFF0;
+}
+
+.navbar {
+    background-color: #1d1d20 !important; /* Ensures navbar background is the specified dark color */
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #FFFFF0 !important; /* Ensures text in the navbar is the specified off-white color */
+}
+
+.welcome {
+    font-family: "Kalnia", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 84px;
+}
