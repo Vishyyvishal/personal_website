@@ -41,19 +41,23 @@ body {
 }
 
 
-h1 {
+
+
+.summary {
+  max-width: 30rem;
   margin: 0;
-  font-family:
-    Iowan Old Style,
-    Palatino Linotype,
-    Book Antiqua,
-    Palatino,
-    Georgia,
-    serif;
-  font-size: clamp(3.25rem, 7vw, 5.25rem);
-  font-weight: 400;
-  letter-spacing: -0.055em;
-  line-height: 0.95;
+  color: #55514a;
+  font-size: clamp(1rem, 1.6vw, 1.125rem);
+  letter-spacing: -0.012em;
+  line-height: 1.55;
+}
+
+.current {
+  margin: 2.5rem 0 0;
+  color: #79756d;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
 }
 
 
