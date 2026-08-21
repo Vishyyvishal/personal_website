@@ -73,14 +73,6 @@ body {
   line-height: 1.4;
 }
 
-.current::before {
-  width: 1.5rem;
-  height: 1px;
-  margin-right: 0.1rem;
-  background: currentcolor;
-  content: "";
-  opacity: 0.6;
-}
 
 .current span {
   text-transform: uppercase;
@@ -105,15 +97,3 @@ body {
   }
 }
 
-@media (max-width: 30rem) {
-  .current {
-    align-items: flex-start;
-    flex-wrap: wrap;
-    column-gap: 0.6rem;
-    row-gap: 0.2rem;
-  }
-
-  .current::before {
-    margin-top: 0.45rem;
-  }
-}
