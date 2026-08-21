@@ -1,3 +1,21 @@
+:root {
+  color-scheme: light;
+  background: #f6f3ed;
+  color: #1b1a18;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f6f3ed;
+}
+
 .page {
   width: min(calc(100% - 3rem), 56rem);
   min-height: 100svh;
@@ -5,9 +23,21 @@
   padding: 3rem 0;
 }
 
+.site-header {
+  font-size: 0.8125rem;
+  line-height: 1.4;
+}
+
+.site-name {
+  color: inherit;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+}
+
 .intro {
   max-width: 48rem;
-  padding-top: clamp(8rem, 20vh, 12rem);
+  margin-top: clamp(8rem, 20vh, 12rem);
 }
 
 h1 {
@@ -46,4 +76,10 @@ p + p {
 .site-nav a {
   color: inherit;
   text-underline-offset: 0.2em;
+}
+
+@media (min-width: 48rem) {
+  .page {
+    width: min(100% - 4rem, 56rem);
+  }
 }
